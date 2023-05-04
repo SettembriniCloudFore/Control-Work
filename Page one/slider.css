@@ -1,6 +1,11 @@
 .flex__slider__container{
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(to right, rgb(0, 128, 0, 0.3) 60%, transparent 40%);
+    /* background-image: linear-gradient(to right, rgb(128, 0, 128, 0.3) 60%, transparent 40%); */
+    /* background-image: linear-gradient(to right, rgb(255, 0, 0, 0.3) 60%, transparent 40%); */
+    /* background-image: linear-gradient(to right, rgb(255, 215, 0, 0.3) 60%, transparent 40%); */
+    height: 500px;
 
     
 }
@@ -63,6 +68,8 @@
     border-left: 2px solid black;
     flex: 2;
     margin: 60px auto auto 30px;
+    
+   
     
     
 }
