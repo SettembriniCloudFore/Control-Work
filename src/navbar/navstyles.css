@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+}
+
+.nav__wrapper{
+    background-color: rgb(29, 31, 64);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.nav__pic{
+    animation: rotation 4s linear infinite;  
+}
+
+.link__section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+
+}
+
+.link__section ul li a{
+    color: azure;
+    text-decoration: none;
+}
+
+.pic__wrapper{
+position: relative;
+right: 400px;
+}
+
+.nav__search{
+    position: relative;
+    right: 200px;
+    color: whitesmoke;
+}
+.nav__theme{
+    position: relative;
+    right: 350px;
+    color: whitesmoke;
+    display: inline-block;
+}
+.nav__login{
+    position: relative;
+    left: 350px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{ 
+        transform: rotate(360deg);
+    }
+}
